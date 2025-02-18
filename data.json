@@ -1,0 +1,61 @@
+{
+  "icons": [
+    {
+      "name": "Alhind",
+      "iconPath": "/houseOf/alhind.png"
+    },
+    {
+      "name": "Alhind Air",
+      "iconPath": "/houseOf/alhindair.jpg"
+    },
+    {
+      "name": "Dalhind",
+      "iconPath": "/houseOf/dalhind.png"
+    },
+    {
+      "name": "Study Abroad",
+      "iconPath": "/houseOf/studyabroad.jpg"
+    }
+  ],
+  "services": [
+    {
+      "title": "AI Solutions",
+      "description": "Cutting-edge artificial intelligence for business automation"
+    },
+    {
+      "title": "Forex ERP Solutions",
+      "description": "Integrated systems for forex operations, compliance, and risk management"
+    },
+    {
+      "title": "Data Analytics",
+      "description": "Transform your data into actionable insights"
+    },
+    {
+      "title": "Travel Technology",
+      "description": "Smart booking engines, reservation systems, and travel APIs"
+    }
+  ],
+  "scrollText": [
+    "Collaborative Team Management",
+    "Creative Team",
+    "Innovative Tools"
+  ],
+  "products": [
+    {
+      "name": "Open Source Laptop",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Open_Laptop_PNG.png"
+    },
+    {
+      "name": "Wireless Headphones",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Beats_Solo_3_Wireless.png"
+    }
+  ],
+  "aboutUs": [
+    {
+      "description": "We are the technology arm of Alhind Tours and Travels, bringing a new wave of innovation to the IT industry. With a strong foundation in travel and enterprise solutions, we specialize in AI-powered technology, Forex ERP solutions, data analytics, and travel technology to transform businesses worldwide."
+    },
+    {
+      "description": "Backed by Alhind’s legacy of trust and excellence, our team is committed to delivering cutting-edge, scalable, and customer-centric solutions that redefine digital transformation. Whether it's optimizing enterprise operations, streamlining financial processes, or enhancing travel experiences, we are here to empower businesses with intelligent, next-generation solutions."
+    }
+  ]
+}
