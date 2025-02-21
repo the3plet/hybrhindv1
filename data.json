@@ -1,20 +1,28 @@
 {
   "icons": [
     {
-      "name": "Alhind",
-      "iconPath": "/houseOf/alhind.png"
-    },
-    {
       "name": "Alhind Air",
-      "iconPath": "/houseOf/alhindair.jpg"
+      "iconPath": "https://www.alhind.org/images/logos/alhindCom.png"
     },
     {
-      "name": "Dalhind",
-      "iconPath": "/houseOf/dalhind.png"
+      "name": "Alhind Holidays",
+      "iconPath": "https://www.alhind.org/images/logos/alhindHolidays.png"
     },
     {
-      "name": "Study Abroad",
-      "iconPath": "/houseOf/studyabroad.jpg"
+      "name": "Alhind Academy",
+      "iconPath": "https://www.alhind.org/images/logos/academy.png"
+    },
+    {
+      "name": "Alhind Bus",
+      "iconPath": "https://www.alhind.org/images/logos/bus.png"
+    },
+    {
+      "name": "Alhind Logistics",
+      "iconPath": "https://www.alhind.org/images/logos/cargo.png"
+    },
+    {
+      "name": "Alhind Exchange",
+      "iconPath": "https://www.alhind.org/images/logos/money.png"
     }
   ],
   "services": [
@@ -36,19 +44,22 @@
     }
   ],
   "scrollText": [
-    "Collaborative Team Management",
-    "Creative Team",
-    "Innovative Tools"
+    {"title":"Collaborative Team Management"},
+   { "title":"Creative Team"},
+    {"title":"Innovative Tools"}
   ],
   "products": [
     {
       "name": "Open Source Laptop",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Open_Laptop_PNG.png"
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "A lightweight, powerful laptop built for developers and creators who prioritize open-source compatibility."
     },
     {
-      "name": "Wireless Headphones",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Beats_Solo_3_Wireless.png"
+      "name": "Wireless Headphones - Immersive Sound Experience",
+      "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Experience crystal-clear audio with these high-quality wireless headphones. Perfect for music lovers and professionals alike, they feature active noise cancellation, ergonomic design for long-term comfort, and an impressive battery life to keep you connected all day."
     }
+    
   ],
   "aboutUs": [
     {

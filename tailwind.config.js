@@ -49,7 +49,22 @@ export default {
     				'4': 'hsl(var(--chart-4))',
     				'5': 'hsl(var(--chart-5))'
     			}
-    		}
+    		},
+			fontFamily:{
+				openSans:['Open Sans','serif'],
+				DarumadropOne:['Darumadrop One','serif'],
+				Karla:['Karla','serif'],
+				AudioWide:['Audiowide','serif']
+			},
+			keyframes: {
+				scroll: {
+				  "0%": { transform: "translateX(100%)" },
+				  "100%": { transform: "translateX(-100%)" },
+				},
+			  },
+			  animation: {
+				"horizontal-scroll": "scroll 10s linear infinite",
+			  },
     	}
     },
   plugins: [require("tailwindcss-animate")],
