@@ -12,18 +12,20 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="md:px-[35vh]">
-        <div className="flex flex-col items-center justify-center h-[80vh] md:h-screen">
+      <div className="md:px-[35vh] ">
+        <div
+          id="hero"
+          className="flex flex-col items-center justify-center h-[80vh] md:h-screen"
+        >
           <Hero />
-        <IconScroll />
+          <IconScroll />
         </div>
         <Expertise />
-<div className="py-4">
-
-        <TextScroll />
-        <TextScroll />
-        <TextScroll />
-</div>
+        {/* <div className="py-4 ">
+          <TextScroll />
+          <TextScroll />
+          <TextScroll />
+        </div> */}
         <Products />
         <AboutUs />
       </div>

@@ -1,4 +1,10 @@
-import { ListCheckIcon, Menu, PhoneIncoming, Settings, StretchHorizontal } from "lucide-react";
+import {
+  ListCheckIcon,
+  Menu,
+  PhoneIncoming,
+  Settings,
+  StretchHorizontal,
+} from "lucide-react";
 import {
   Menubar,
   MenubarContent,
@@ -16,34 +22,62 @@ export function Navbar() {
           alt="logo"
           width={"35px"}
         />
-        <h1 className="text-lg font-extrabold flex items-center font-Karla">Hybrhind</h1>
+        <h1 className="text-lg font-extrabold flex items-center font-Karla">
+          Hybrhind
+        </h1>
       </div>
-      <div className="flex md:hidden font-light" >
+      <div className="flex md:hidden font-light">
         <MenubarMenu>
           <MenubarTrigger className="font-bold">
             <Menu />
           </MenubarTrigger>
           <MenubarContent className="z-40 bg-white rounded-xl ">
-            <MenubarItem className="text-lg gap-1"><Settings size={20}/>Services</MenubarItem>
-            <MenubarItem className="text-lg gap-1"><StretchHorizontal size={20}/>Product</MenubarItem>
-            <MenubarItem className="text-lg gap-1"><ListCheckIcon size={20}/> About us</MenubarItem>
-            <MenubarItem className="text-lg gap-1"><PhoneIncoming size={20}/> Contact us</MenubarItem>
+            <a href="#service">
+              <MenubarItem className="text-lg gap-1">
+                <Settings size={20} />
+                Services
+              </MenubarItem>
+            </a>
+            <a href="#product">
+              <MenubarItem className="text-lg gap-1">
+                <StretchHorizontal size={20} />
+                Product
+              </MenubarItem>
+            </a>
+            <a href="#about">
+              <MenubarItem className="text-lg gap-1">
+                <ListCheckIcon size={20} /> About us
+              </MenubarItem>
+            </a>
+            <a href="#contact">
+              <MenubarItem className="text-lg gap-1">
+                <PhoneIncoming size={20} /> Contact us
+              </MenubarItem>
+            </a>
           </MenubarContent>
         </MenubarMenu>
       </div>
-      <div className="hidden md:block ">
-        <div className="flex ">
+      <div className="hidden md:block bg-white z-50">
+        <div className="flex">
           <MenubarMenu>
-            <MenubarTrigger>Services</MenubarTrigger>
+            <a href="#service">
+              <MenubarTrigger className="cursor-pointer">Services</MenubarTrigger>
+            </a>
           </MenubarMenu>
           <MenubarMenu>
-            <MenubarTrigger >Product</MenubarTrigger>
+            <a href="#product">
+              <MenubarTrigger className="cursor-pointer">Product</MenubarTrigger>
+            </a>
           </MenubarMenu>
           <MenubarMenu>
-            <MenubarTrigger>About us</MenubarTrigger>
+            <a href="#about">
+              <MenubarTrigger className="cursor-pointer">About us</MenubarTrigger>
+            </a>
           </MenubarMenu>
           <MenubarMenu>
-            <MenubarTrigger>Contact us</MenubarTrigger>
+            <a href="#contact">
+              <MenubarTrigger className="cursor-pointer">Contact us</MenubarTrigger>
+            </a>
           </MenubarMenu>
         </div>
       </div>

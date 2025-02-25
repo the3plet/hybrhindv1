@@ -1,11 +1,12 @@
 import { Card, CardContent, CardFooter } from "./ui/card";
-import { Separator } from "./ui/separator";
 import datas from "../../data.json";
 import { ChevronRight } from "lucide-react";
+import {motion} from 'motion/react'
 
 const Products = () => {
   return (
-    <div className="">
+    
+    <div className="" id="product">
       {/* <h3 className="flex justify-center font-extrabold text-3xl py-8 pl-6">
         Products
       </h3> */}
@@ -15,6 +16,8 @@ const Products = () => {
             key={index}
             className=" w-full shadow-none border-none rounded-lg flex justify-evenly"
           >
+            <motion.div initial={{opacity:0,scale:0.9}} whileInView={{opacity:1,scale:1}} transition={{duration:2}}>
+
             <CardContent>
               <div className="flex flex-col justify-between items-center gap-6 py-8">
                 <div className="flex flex-col items-center gap-4">
@@ -37,6 +40,8 @@ const Products = () => {
                 />
                 </div>
             </CardContent>
+            </motion.div>
+
           </Card>
         ))}
       </div>

@@ -12,7 +12,7 @@ const TextScroll = () => {
         {datas.scrollText.map((data, index) => (
           <div
             key={index}
-            className="font-AudioWide text-gray-600 text-4xl whitespace-nowrap px-10"
+            className="font-AudioWide text-gray-500 opacity-80 text-4xl whitespace-nowrap px-10"
           >
             {data.title}
           </div>
