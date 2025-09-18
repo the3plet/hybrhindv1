@@ -63,7 +63,7 @@ export default {
 				},
 			  },
 			  animation: {
-				"horizontal-scroll": "scroll 10s linear infinite",
+				"horizontal-scroll": "scroll 30s linear infinite",
 			  },
     	}
     },

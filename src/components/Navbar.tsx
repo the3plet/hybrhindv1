@@ -15,33 +15,31 @@ import {
 
 export function Navbar() {
   return (
-    <Menubar className="flex justify-between rounded-none border-b border-none py-6 px-2 lg:px-4 sticky bg-white top-0">
+    <Menubar className="flex justify-between rounded-none border-x-0 border-t-0 py-7 md:py-10 px-2 lg:px-4 sticky z-50 bg-white top-0 border-b ">
       <div className="flex space-x-1 ">
         <img
-          src="https://cdn.worldvectorlogo.com/logos/next-js.svg"
+          src="/hybrhindLogo.jpg"
           alt="logo"
-          width={"35px"}
+          width={"190px"}
         />
-        <h1 className="text-lg font-extrabold flex items-center font-Karla">
-          Hybrhind
-        </h1>
+        
       </div>
       <div className="flex md:hidden font-light">
         <MenubarMenu>
           <MenubarTrigger className="font-bold">
             <Menu />
           </MenubarTrigger>
-          <MenubarContent className="z-40 bg-white rounded-xl ">
-            <a href="#service">
+          <MenubarContent className="z-40 bg-white rounded-xl mt-4 mr-1">
+            <a href="#solution">
               <MenubarItem className="text-lg gap-1">
                 <Settings size={20} />
-                Services
+                Solutions
               </MenubarItem>
             </a>
             <a href="#product">
               <MenubarItem className="text-lg gap-1">
                 <StretchHorizontal size={20} />
-                Product
+                Products
               </MenubarItem>
             </a>
             <a href="#about">
@@ -58,25 +56,27 @@ export function Navbar() {
         </MenubarMenu>
       </div>
       <div className="hidden md:block bg-white z-50">
-        <div className="flex">
+        <div className="flex gap-4 ">
           <MenubarMenu>
-            <a href="#service">
-              <MenubarTrigger className="cursor-pointer">Services</MenubarTrigger>
+            <a href="#solution">
+              <MenubarTrigger className="cursor-pointer text-md">Solutions</MenubarTrigger>
             </a>
           </MenubarMenu>
           <MenubarMenu>
             <a href="#product">
-              <MenubarTrigger className="cursor-pointer">Product</MenubarTrigger>
+              <MenubarTrigger className="cursor-pointer text-md">Products
+                
+              </MenubarTrigger>
             </a>
           </MenubarMenu>
           <MenubarMenu>
             <a href="#about">
-              <MenubarTrigger className="cursor-pointer">About us</MenubarTrigger>
+              <MenubarTrigger className="cursor-pointer text-md">About us</MenubarTrigger>
             </a>
           </MenubarMenu>
           <MenubarMenu>
             <a href="#contact">
-              <MenubarTrigger className="cursor-pointer">Contact us</MenubarTrigger>
+              <MenubarTrigger className="cursor-pointer text-md">Contact us</MenubarTrigger>
             </a>
           </MenubarMenu>
         </div>

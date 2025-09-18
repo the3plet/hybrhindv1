@@ -1,35 +1,40 @@
 import AboutUs from "./components/AboutUs";
-import Expertise from "./components/Expertise";
+import AiBot from "./components/AiBot";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
-import IconScroll from "./components/IconScroll";
 import { Navbar } from "./components/Navbar";
 import Products from "./components/Products";
-import Services from "./components/Services";
-import TextScroll from "./components/TextScroll";
+import Solutions from "./components/Solutions";
+import Technology from "./components/Technology";
+import { Toaster } from "./components/ui/sonner";
+import WhatsAppChat from "./components/WhatsupChat";
 
 function App() {
   return (
     <>
       <Navbar />
-      <div className="md:px-[35vh] ">
+      {/* <div className=" "> */}
         <div
           id="hero"
-          className="flex flex-col items-center justify-center h-[80vh] md:h-screen"
+          className="flex flex-col items-center justify-center h-[80vh] md:h-screen md:px-[35vh] bg-white"
         >
           <Hero />
-          <IconScroll />
         </div>
-        <Expertise />
+        <Solutions/>
+        {/* <Expertise /> */}
         {/* <div className="py-4 ">
           <TextScroll />
           <TextScroll />
           <TextScroll />
-        </div> */}
+          </div> */}
+          <Technology/>
         <Products />
         <AboutUs />
-      </div>
+      {/* </div> */}
       <Footer />
+      <Toaster richColors position="bottom-center"/>
+      <WhatsAppChat/>
+      <AiBot/>
     </>
   );
 }

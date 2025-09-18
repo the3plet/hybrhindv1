@@ -31,7 +31,7 @@ const Expertise = () => {
       whileInView={{ opacity:1 }} transition={{duration:2}}
      
     >
-      <div className="md:border  md:rounded-3xl p-4" id="service">
+      <div className="md:border  p-4 md:px-[35vh] py-44" id="service">
         <span className="flex flex-col items-center text-center md:items-start md:text-start">
           <h1 className="flex justify-start m-4 mb-0 font-bold text-3xl text-[#3b3d3d]">
             Our Services
@@ -102,13 +102,13 @@ const Expertise = () => {
                     />
                     <img
                       width={180}
-                      className="z-50 absolute pr-4 pb-4 rounded-xl mr-28"
+                      className="z-20 absolute pr-4 pb-4 rounded-xl mr-28"
                       src="https://images.unsplash.com/photo-1580835239846-5bb9ce03c8c3?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="img"
                     />
                     <img
                       width={180}
-                      className="z-50 absolute pr-6 pb-6 rounded-xl mr-28"
+                      className="z-10 absolute pr-6 pb-6 rounded-xl mr-28"
                       src="https://images.unsplash.com/photo-1580835239846-5bb9ce03c8c3?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="img"
                     />

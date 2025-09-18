@@ -13,10 +13,6 @@
       "iconPath": "https://www.alhind.org/images/logos/academy.png"
     },
     {
-      "name": "Alhind Bus",
-      "iconPath": "https://www.alhind.org/images/logos/bus.png"
-    },
-    {
       "name": "Alhind Logistics",
       "iconPath": "https://www.alhind.org/images/logos/cargo.png"
     },
@@ -50,23 +46,47 @@
   ],
   "products": [
     {
-      "name": "Open Source Laptop",
-      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "A lightweight, powerful laptop built for developers and creators who prioritize open-source compatibility."
+      "name": "Digital Currency Signage",
+      "image": "/products/product1.png",
+      "description": "Display dynamic currency exchange rates on Smart TVs, acting as modern digital billboards. The system comprises two main parts: a display application running on the Smart TV(s) and a web-based control panel for managing the displayed content and settings. This solution is ideal for financial institutions, exchange bureaus, airports, hotels, and international businesses needing to provide up-to-date currency information to customers or staff."
     },
     {
-      "name": "Wireless Headphones - Immersive Sound Experience",
-      "image": "https://images.unsplash.com/photo-1564466809058-bf4114d55352?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "description": "Experience crystal-clear audio with these high-quality wireless headphones. Perfect for music lovers and professionals alike, they feature active noise cancellation, ergonomic design for long-term comfort, and an impressive battery life to keep you connected all day."
+      "name": "Forex ERP",
+      "image": "/products/product2.png",
+      "description": "Integrated systems designed to streamline and automate foreign exchange (FX) operations, compliance, and risk management within an organization. These systems help businesses manage their FX exposures, automate trading processes, and ensure adherence to regulatory requirements, ultimately improving efficiency and reducing risks."
     }
     
   ],
   "aboutUs": [
     {
-      "description": "We are the technology arm of Alhind Tours and Travels, bringing a new wave of innovation to the IT industry. With a strong foundation in travel and enterprise solutions, we specialize in AI-powered technology, Forex ERP solutions, data analytics, and travel technology to transform businesses worldwide."
-    },
-    {
-      "description": "Backed by Alhind’s legacy of trust and excellence, our team is committed to delivering cutting-edge, scalable, and customer-centric solutions that redefine digital transformation. Whether it's optimizing enterprise operations, streamlining financial processes, or enhancing travel experiences, we are here to empower businesses with intelligent, next-generation solutions."
+      "description": "At Hybrhind, we are committed to providing cutting-edge solutions that empower businesses to thrive in the digital age. Our mission is to transform complex data into actionable insights, offering innovative AI-driven technologies for the modern enterprise."
     }
+  ],
+  "promoters":[{
+    "description":"Alhind Group has carved as a niche for itself in the travel and tourism industry. Founded in the early 1990s in Kerala, India. the Company has grown to become a significant player in the travel and tourism sector, offering a wide range of services to cater to the diverse needs of travelers. alhind's journey has been characterized by its commitment to customer satisfaction, innovation, and a strong sense of responsibility towards the community it serves."
+  },{
+    "description":"Alhind offers a wide array of travel-related services, making it a one-stop-shop for all your travel needs. alhind's global footprint has expanded significantly over the years. With offices and partners in several countries, including the United Arab Emirates, Saudi Arabia, Qatar, Oman, Bangladesh and Kuwait, the company has managed to serve a diverse clientele from different parts of the world."
+  }],
+  "tech":[
+    { "file": "/tech/dotnet.svg", "name": ".NET" },
+    { "file": "/tech/python.svg", "name": "Python" },
+    { "file": "/tech/csharp.svg", "name": "C#" },
+    { "file": "/tech/react.svg", "name": "React" },
+    { "file": "/tech/nodejs.svg", "name": "Node.js" },
+    { "file": "/tech/nextjs.svg", "name": "Next.js" },
+    { "file": "/tech/shadcn.svg", "name": "shadcn/ui" },
+    { "file": "/tech/vite.svg", "name": "Vite" },
+    { "file": "/tech/gitlab.svg", "name": "GitLab" },
+    { "file": "/tech/mongodb.svg", "name": "MongoDB" },
+    { "file": "/tech/postgresql.svg", "name": "PostgreSQL" },
+    { "file": "/tech/nginx.svg", "name": "Nginx" },
+    { "file": "/tech/docker.svg", "name": "Docker" },
+    { "file": "/tech/aws.svg", "name": "AWS" },
+    { "file": "/tech/fabric.svg", "name": "Fabric" },
+    { "file": "/tech/opencv.svg", "name": "OpenCV" },
+    { "file": "/tech/n8n.svg", "name": "n8n" },
+    { "file": "/tech/autogpt.png", "name": "autogpt" }
   ]
+  
+  
 }
